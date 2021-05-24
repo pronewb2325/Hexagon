@@ -49,7 +49,7 @@ end
 
 if not isfile("hexagon/custom_models.txt") then
 	print("downloading hexagon custom models file")
-	writefile("hexagon/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/pronewb2325/pronewb2325/main/Hexagon%20skins"))
+	writefile("hexagon/custom_models.txt", game:HttpGet("https://github.com/pronewb2325/pronewb2325/blob/main/Hexagon%20skins"))
 end
 
 if not isfile("hexagon/inventories.txt") then
